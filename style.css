@@ -1,0 +1,93 @@
+/* styles.css */
+
+/* Basic styling */
+body {
+    background-color: pink;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: rgb(150, 109, 116);
+    padding: 10px 0;
+    text-align: center;
+}
+
+.logo h1 {
+    margin: 0;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline;
+    margin: 0 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Hero */
+.hero {
+    background-image: url('hero.jpg'); /* Replace with your hero image */
+    background-size: cover;
+    text-align: center;
+    color:navy black;
+    padding: 100px 0;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff3366;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Services */
+.services {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.service-card {
+    margin: 20px;
+    display: inline-block;
+    text-align: left;
+    width: 300px;
+}
+
+.service-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* About */
+.about {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 40px 0;
+}
+
+/* Contact */
+.contact {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.contact a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #333;
+}
